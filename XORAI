@@ -7,7 +7,7 @@ using namespace std;
     float output_layer[1];
     float weights[];
 
-float init()
+float init(a)
 {
     
 }
