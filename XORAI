@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+float init()
+{
+    
+}
+
+int main()
+{
+    float input_layer[2];
+    float hidden_layer[2, 2];
+    float output_layer[1];
+    float weights[];
+}
+
