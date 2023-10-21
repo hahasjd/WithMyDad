@@ -15,5 +15,5 @@ float init(a)
 
 int main()
 {
-    
+    cout << "привет мир";
 }
