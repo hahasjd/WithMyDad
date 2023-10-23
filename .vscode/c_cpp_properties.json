@@ -3,7 +3,6 @@
     {
       "name": "linux-gcc-x64",
       "includePath": [
-        "/usr/include/c++/11",
         "${workspaceFolder}/**"
       ],
       "cStandard": "${default}",
