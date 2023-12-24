@@ -8,6 +8,7 @@ float output_layer[1];
 float weights_layer_1[2][2];
 float weights_layer_2[2][2];
 float weights_output[2];
+
 void init(void)
 {
     for(int i = 0; i < 2; i++)
@@ -24,9 +25,10 @@ void init(void)
 int main()
 {
     init();
+
     for(int i = 0; i < 2; i++)
     {
-        cout << "Hello !";
+        cout << "Hello !{"<<i<<"}" << endl << flush;
     }
     return 0;
 }
