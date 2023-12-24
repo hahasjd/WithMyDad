@@ -2,23 +2,32 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
+      "type": "gdb",
       "request": "launch",
-      "args": [],
-      "stopAtEntry": false,
-      "externalConsole": false,
-      "cwd": "/mnt/c/github/WithMyDad",
-      "program": "/mnt/c/github/WithMyDad/build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
-        {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        }
-      ]
+      "name": "GDB - main",
+      "target": "./build/Debug/outDebug",
+      "cwd": "${workspaceRoot}",
+      "valuesFormatting": "parseText",
+      "internalConsoleOptions": "openOnSessionStart"
     }
+    // {
+    //   "name": "C/C++ Runner: Debug Session",
+    //   "type": "cppdbg",
+    //   "request": "launch",
+    //   "args": [],
+    //   "stopAtEntry": false,
+    //   "externalConsole": false,
+    //   "cwd": "/mnt/c/github/WithMyDad",
+    //   "program": "/mnt/c/github/WithMyDad/build/Debug/outDebug",
+    //   "MIMode": "gdb",
+    //   "miDebuggerPath": "gdb",
+    //   "setupCommands": [
+    //     {
+    //       "description": "Enable pretty-printing for gdb",
+    //       "text": "-enable-pretty-printing",
+    //       "ignoreFailures": true
+    //     }
+    //   ]
+    // }
   ]
 }
